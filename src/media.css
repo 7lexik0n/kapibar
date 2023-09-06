@@ -1,0 +1,86 @@
+@media (max-width: 1280px) {
+  .kapibar {
+    width: 290px;
+    height: 290px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+    margin: 32px;
+  }
+
+  .kapibar {
+    position: static;
+    display: block;
+    width: 360px;
+    height: 360px;
+    margin-top: 48px;
+    margin-right: 0;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 20px 0;
+    padding: 20px 12px;
+    border-radius: 0;
+  }
+
+  .container,
+  .profile_title {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .profile_date {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .content_title {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .tags_item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  ul {
+    padding-left: 25px;
+  }
+
+  .list {
+    margin-bottom: 20px;
+  }
+
+  .actions {
+    gap: 16px;
+  }
+
+  .actions_button {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+    flex-basis: 100%;
+  }
+
+  .additional,
+  .additional_actions {
+    margin-top: 20px;
+  }
+
+  .kapibar {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+  }
+}
