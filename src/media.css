@@ -83,4 +83,10 @@
     height: auto;
     margin-top: 0;
   }
+
+  .actions--withMargins {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
 }
